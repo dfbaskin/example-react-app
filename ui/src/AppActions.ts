@@ -39,6 +39,6 @@ export const initialState: AppStoreState = {
   }
 };
 
-export function reducer(state: AppStoreState, action: Action) {
+export function reducer(state: AppStoreState = initialState, action: Action): AppStoreState {
   return state;
 }
